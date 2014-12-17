@@ -21,7 +21,7 @@ cookbook 'apt', git: 'git://github.com/opscode-cookbooks/apt.git'
 #[submodule "erlang"]
 cookbook 'erlang', git: 'git://github.com/chrishenderson/erlang.git'
 #[submodule "mysql"]
-cookbook 'mysql', git: 'git://github.com/opscode-cookbooks/mysql.git'
+#cookbook 'mysql', git: 'git://github.com/opscode-cookbooks/mysql.git'
 #[submodule "nagios"]
 cookbook 'nagios', git: 'git://github.com/opscode-cookbooks/nagios.git'
 #[submodule "ohai"]
@@ -39,7 +39,7 @@ cookbook 'runit', git: 'git://github.com/chrishenderson/runit.git'
 #[submodule "ant"]
 cookbook 'ant', '~> 1.0.3', git: 'git://github.com/opscode-cookbooks/ant.git'
 #[submodule "apache2"]
-cookbook 'apache2', '~> 2.0.1', git: 'git://github.com/opscode-cookbooks/apache2.git'
+cookbook 'apache2', '~> 3.0.1', git: 'git://github.com/opscode-cookbooks/apache2.git'
 #[submodule "ark"]
 cookbook 'ark', '~> 0.9.1', git: 'git://github.com/opscode-cookbooks/ark.git'
 #[submodule "aws"]
@@ -47,7 +47,7 @@ cookbook 'aws', git: 'git://github.com/opscode-cookbooks/aws.git'
 #[submodule "bluepill"]
 cookbook 'bluepill', '~> 2.3.2', git: 'git://github.com/opscode-cookbooks/bluepill.git'
 #[submodule "build-essential"]
-cookbook 'build-essential', '~> 2.0.6', git: 'git://github.com/opscode-cookbooks/build-essential.git'
+cookbook 'build-essential', '~> 2.1.3', git: 'git://github.com/opscode-cookbooks/build-essential.git'
 #[submodule "chef_handler"]
 cookbook 'chef_handler', git: 'git://github.com/opscode-cookbooks/chef_handler.git'
 #[submodule "database"]
