@@ -49,7 +49,7 @@ DEPENDENCIES
     revision: 956e791bc70713643b4812b2fa681c26272e9acc
   kibana
     git: git://github.com/4thAce/chef-kibana.git
-    revision: e9e0ac32b7a978ad292cd346834a2f793090b9af
+    revision: 5192ead72deb2ce2d7b242920e24b629ac15b44d
   logrotate
     git: git://github.com/opscode-cookbooks/logrotate.git
     revision: cc68330f41149db2bca53e8c0bfc478475a4ca9d
