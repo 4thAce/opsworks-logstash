@@ -13,7 +13,7 @@ cookbook 'logstash', git: 'git://github.com/foxycoder/chef-logstash.git'
 #[submodule "redisio"]
 cookbook 'redisio', git: 'git://github.com/brianbianco/redisio.git'
 #[submodule "rabbitmq"]
-cookbook 'rabbitmq', git: 'git://github.com/jjasghar/rabbitmq.git'
+cookbook 'rabbitmq', git: 'git://github.com/4thAce/rabbitmq.git'
 #[submodule "java"]
 cookbook 'java', git: 'git://github.com/opscode-cookbooks/java.git'
 #[submodule "apt"]
