@@ -89,8 +89,8 @@ DEPENDENCIES
     git: git://github.com/opscode-cookbooks/python.git
     revision: 01e511b8564aaf7bae99aa96bfc568dcbd289394
   rabbitmq
-    git: git://github.com/jjasghar/rabbitmq.git
-    revision: 7901152258abe688fb0519650ed1cd06c5291194
+    git: git://github.com/4thAce/rabbitmq.git
+    revision: caf451a85e5123514cd77e0334a59cc7d7b50602
   rabbitmq_cluster
     git: git://github.com/chrishenderson/rabbitmq_cluster.git
     revision: 3a1fddb46f1882a9994376db0ef40fc9d5cd6aa2
