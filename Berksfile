@@ -7,13 +7,13 @@ cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git'
 #[submodule "elasticsearch"]
 cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git'
 #[submodule "kibana"]
-cookbook 'kibana', git: 'git://github.com/lusis/chef-kibana.git'
+cookbook 'kibana_lwrp', git: 'git://github.com/lusis/chef-kibana.git'
 #[submodule "logstash"]
 cookbook 'logstash', git: 'git://github.com/foxycoder/chef-logstash.git'
 #[submodule "redisio"]
 cookbook 'redisio', git: 'git://github.com/brianbianco/redisio.git'
 #[submodule "rabbitmq"]
-cookbook 'rabbitmq', git: 'git://github.com/opscode-cookbooks/rabbitmq.git'
+cookbook 'rabbitmq', git: 'git://github.com/jjasghar/rabbitmq.git'
 #[submodule "java"]
 cookbook 'java', git: 'git://github.com/opscode-cookbooks/java.git'
 #[submodule "apt"]

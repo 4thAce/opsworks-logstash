@@ -4,10 +4,10 @@ DEPENDENCIES
     revision: 69b809c64e2d66a7bfe8226d50fe30a17a00f427
   apache2
     git: git://github.com/opscode-cookbooks/apache2.git
-    revision: 03a72be9bc71b26bcac05c39d92f3806cb255dfc
+    revision: 03bd215e9e07d261d96a01cdc2b1532e5e5eabcf
   apt
     git: git://github.com/opscode-cookbooks/apt.git
-    revision: f9171b77e7d4f19afeeb3b8c32667cc6b0568ddb
+    revision: 86c78b1867bc3861d652467f33addbdc521078bb
   ark
     git: git://github.com/opscode-cookbooks/ark.git
     revision: 1f7c092ffe80073409bce7fa851346fb076a259f
@@ -47,9 +47,9 @@ DEPENDENCIES
   java
     git: git://github.com/opscode-cookbooks/java.git
     revision: 956e791bc70713643b4812b2fa681c26272e9acc
-  kibana
+  kibana_lwrp
     git: git://github.com/lusis/chef-kibana.git
-    revision: fd44f470b547c93441ef4514407c32ae05697012
+    revision: a84b00e81fda3fc496889513eafded1f56388a45
   logrotate
     git: git://github.com/opscode-cookbooks/logrotate.git
     revision: 45d7e4ed6d0d16fc60660ab62e96d25b96957816
@@ -61,7 +61,7 @@ DEPENDENCIES
     revision: 83cc33983673b9d750d023d9321209a520e8adde
   nagios
     git: git://github.com/opscode-cookbooks/nagios.git
-    revision: 0e7480c23d434197f07d0ed3ea7a297fd712ae6d
+    revision: 272954c83fcf03bb0b531937d9aef4d63d3f4ce3
   nginx (~> 2.7.4)
   ntp
     git: git://github.com/opscode-cookbooks/ntp.git
@@ -89,7 +89,7 @@ DEPENDENCIES
     git: git://github.com/opscode-cookbooks/python.git
     revision: 01e511b8564aaf7bae99aa96bfc568dcbd289394
   rabbitmq
-    git: git://github.com/opscode-cookbooks/rabbitmq.git
+    git: git://github.com/jjasghar/rabbitmq.git
     revision: 7901152258abe688fb0519650ed1cd06c5291194
   rabbitmq_cluster
     git: git://github.com/chrishenderson/rabbitmq_cluster.git
@@ -120,7 +120,7 @@ DEPENDENCIES
     revision: 057c50307659e2067ce11137c9183608cb1f3458
   yum
     git: git://github.com/opscode-cookbooks/yum.git
-    revision: e6d306c667f93a54273bda1f64d942a05ca7e944
+    revision: 7b794bb7323c074db069d9a2c20e0095323047ce
   yumrepo
     git: git://github.com/bryanwb/cookbook-yumrepo.git
     revision: 865e009b1f131bb85fa706ebc1c426dade2bbd62
@@ -132,7 +132,7 @@ GRAPH
   apache2 (3.0.1)
     iptables (>= 0.0.0)
     logrotate (>= 0.0.0)
-  apt (2.6.0)
+  apt (2.6.1)
   ark (0.9.1)
     build-essential (>= 0.0.0)
   aws (2.5.0)
@@ -170,14 +170,14 @@ GRAPH
     windows (>= 1.34.6)
   iptables (0.14.0)
   java (1.29.0)
-  kibana (1.4.1)
+  kibana_lwrp (2.0.1)
     apache2 (>= 0.0.0)
     ark (>= 0.0.0)
     git (>= 0.0.0)
     java (>= 0.0.0)
     libarchive (>= 0.0.0)
-    logstash (>= 0.0.0)
     nginx (>= 0.0.0)
+    poise (>= 0.0.0)
     runit (>= 0.0.0)
   libarchive (0.4.1)
     apt (~> 2.5)
@@ -233,6 +233,7 @@ GRAPH
     windows (>= 0.0.0)
     xml (>= 0.0.0)
     yum-epel (>= 0.0.0)
+  poise (1.0.10)
   postfix (3.6.2)
   postgresql (3.4.14)
     apt (>= 1.9.0)
@@ -267,7 +268,7 @@ GRAPH
   xml (1.2.9)
     build-essential (>= 0.0.0)
     chef-sugar (>= 0.0.0)
-  yum (3.5.1)
+  yum (3.5.2)
   yum-epel (0.5.3)
     yum (~> 3.0)
   yum-erlang_solutions (0.2.0)
